@@ -38,7 +38,7 @@ body {
     align-items: center;
 }
 .wrapper {
-    width: 1250px;
+    width: 1200px;
     margin-top: 70px;
     margin-left: 100px;
     position: absolute;
@@ -56,9 +56,10 @@ body {
     padding-bottom: 90px;
 }
 .sidebar {
-    left: 0px;
+    width: 385px;
+    left: 60px;
     top: 0px;
-    width: 40%;
+    /*width: 40%;*/
     gap: 70px;
     background-color: #FFFF;
     color: #000000;
@@ -68,12 +69,6 @@ body {
     padding: 15px 0;
     position: absolute;
     margin-top: 150px;
-
-    overflow: auto;
- /* position: -webkit-sticky;
-  position: sticky;
-  top: 5%;*/
-     
 }
 .sidebar .title::before {
     display: none;
@@ -99,11 +94,11 @@ a:active {
 }
 .background_picture {
     position: fixed;
-    top: 13%;
-    right: 20%;
+    top: 130px;
+    right: 700px;
     width: 600px;
     height: 100vh;
-    object-fit: cover;
+    /*object-fit: contain;*/
     z-index: -1
 }
 .text_container {
